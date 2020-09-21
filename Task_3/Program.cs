@@ -8,9 +8,7 @@ namespace Task_3
         {
             Console.OutputEncoding = System.Text.Encoding.Unicode;
 
-
-            Console.OutputEncoding = System.Text.Encoding.Unicode;
-
+            /*Перевірка на правильність данних для типу int*/
             Console.WriteLine("Введіть змінну типу int");
             Console.Write("a = ");
             do
@@ -30,7 +28,7 @@ namespace Task_3
             }
             while (true);
 
-            
+            /*Перевірка на правильність данних для типу double*/
             Console.WriteLine("Введіть змінну типу double");
             Console.Write("b = ");
             do
@@ -50,7 +48,7 @@ namespace Task_3
             }
             while (true);
 
-
+            /*Перевірка на правильність данних для типу long*/
             Console.WriteLine("Введіть змінну типу long");
             Console.Write("c = ");
             do
